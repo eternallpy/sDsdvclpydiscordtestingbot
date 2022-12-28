@@ -71,7 +71,7 @@ async def on_message(message):
     )
 
 
-@tasks.loop(minutes=20)
+@tasks.loop(minutes=30)
 async def autoUpdateRate():
   updateRate()
   global status
