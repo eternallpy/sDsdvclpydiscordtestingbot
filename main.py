@@ -65,12 +65,9 @@ async def on_message(message):
   if message.content == 'gbp':
     await message.channel.send(gbp + '\n\n' + updatetime)
 
-  if message.content == '打patpat':
-    await message.channel.send(':heart::heart:也咩爹 姑打 西(飆高音):heart:~~:heart:')
-
   if message.content == 'help':
     await message.channel.send(
-      "uprate: Manually update all exchange rate and send out the rate list.\n-\nrate: Send out the exchange rate list\n-\nyen/usd/rmb/gbp/euro: Send out corresponding currency exchange rate\n-\n~~打patpat~~: XD"
+      "uprate: Manually update all exchange rate and send out the rate list.\n-\nrate: Send out the exchange rate list\n-\nyen/usd/rmb/gbp/euro: Send out corresponding currency exchange rate"
     )
 
 
